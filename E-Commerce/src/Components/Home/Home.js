@@ -63,7 +63,7 @@ function Home() {
           })}
         </Carousel>
         <div className="container ">
-        <div className="mx-5 flex flex-wrap gap-5">
+        <div className="mx-10 flex flex-wrap justify-end gap-5">
           <div className="lg:w-5/12 mt-5 mb-5 md:w-4/6 sm:w-full">
             <img
               className="mx-auto w-full h-96"
