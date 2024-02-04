@@ -62,27 +62,25 @@ function Home() {
             );
           })}
         </Carousel>
-        <div className="container">
-          <div className="row">
-            <div className="col-6 mt-5 mb-5">
-              <img
-                className="ms-auto me-auto"
-                src={require("./image/vagitable.jpg")}
-                height="400px"
-                width="100%"
-                style={imgstyle}
+        <div className="container ">
+        <div className="mx-5 flex flex-wrap gap-5">
+          <div className="lg:w-5/12 mt-5 mb-5 md:w-4/6 sm:w-full">
+            <img
+              className="mx-auto w-full h-96"
+              
+              src={require("./image/vagitable.jpg")}
+              alt="Vegetable Image"
               />
-            </div>
-            <div className="col-6 mt-5 mb-5">
-              <img
-                className="ms-auto me-auto"
-                src={require("./image/grocery.jpg")}
-                height="400px"
-                width="100%"
-                style={imgstyle}
-              />
-            </div>
           </div>
+          <div className="lg:w-5/12 mt-5 mb-5 md:w-4/6 sm:w-full">
+            <img
+              className="mx-auto w-full h-96"
+              
+              src={require("./image/grocery.jpg")}
+              alt="Grocery Image"
+            />
+          </div>
+        </div>
           <div className="about">
             <h2 className="text-success h2">online grocery store</h2>
             <blockquote className="mt-2 content">
