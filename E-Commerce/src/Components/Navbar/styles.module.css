@@ -26,6 +26,7 @@
 .categoryNav {
   @apply
   flex
+  gap-12
   py-2
   max-w-7xl
   mx-auto
@@ -38,6 +39,7 @@
 
 .categoryLink {
   @apply
+  transition ease-in-out delay-150 
   tracking-widest
   text-black
   md:hover:border-x-4
@@ -46,8 +48,9 @@
   px-6
   py-2
   hover:underline-offset-[5px]
-  mx-0
+  mx-4
   flex
+
 }
 
 .categoryLink h1 {
